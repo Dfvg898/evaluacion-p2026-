@@ -119,24 +119,24 @@ body {
 }
 
 .imagen img {
-  width: 30rem;
+  width: 35rem;
   border-radius: 1rem;
-  margin-top: 2rem;
 }
 
 .contenedor-quienes-somos {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
   gap: 2rem ;
+  padding: 4rem;
 }
 
 .contenido-quienes-somos {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 25rem;
-  margin-left: 30rem;
+  width: 35rem;
   padding: 3rem;
 }
 
@@ -145,8 +145,6 @@ body {
 }
 
 .contenedor-valor-diferencial {
-  background-color: #003366;
-
   color: white;
 }
 
@@ -157,4 +155,279 @@ body {
 .contenedor-valor-diferencial {
   display: flex;
   padding: 5rem;
+}
+
+.cuadro {
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  width: 20rem;
+  padding: 1.5rem;
+  padding-top: 2rem;
+}
+
+.cuadro span {
+  color: #FFAA00;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cuadro h3 {
+  color: #003366;
+}
+
+.contenedor-cuadros {
+  display: flex;
+  gap: 2rem;
+}
+
+.contenedor-valor-diferencial {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-valores {
+  display: flex;
+  justify-content: center;
+  background-color: #003366;
+}
+
+.valor-diferencial p{
+  font-weight: bold;
+
+  margin: 0rem;
+}
+
+.contenedor-valor-diferencial h2 {
+  font-size: 2.5rem;
+}
+
+.nuestros-servicios h2 {
+  color: #003366;
+  font-size: 2rem;
+}
+
+.nuestros-servicios {
+  width: 42rem;
+  margin-right: 28rem;
+}
+
+.card h3{
+  color: #003366;
+}
+
+.card {
+  width: 20rem;
+  border: .1rem solid #D9D9D9;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+
+.card ul {
+  padding: 1rem;
+}
+
+.contenedor-cards {
+  display: flex;
+  gap: 2rem ;
+}
+
+.icono {
+  color: #003366;
+  background-color: #A3D9A5;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.contenedor-nuestros-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+
+.operacion-norte-grande h2{
+  color: #003366;
+}
+
+.cobertura p {
+  color: #FFAA00;
+  font-weight: bold;
+}
+
+.operacion-norte-grande {
+  width: 30rem;
+  padding: 2rem;
+}
+
+.operacion-norte-grande h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.zona-atencion h3 {
+  color: #003366;
+  font-size: 1.5rem;
+}
+
+.zona-atencion span {
+  color: white;
+  background-color: #003366;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.zona-atencion {
+  background-color: white;
+  width: 28rem;
+  padding: 2rem;
+  height: 14rem;
+  border-radius: 1rem;
+}
+
+.zona-atencion p {
+  padding-bottom: 1rem;
+}
+
+.boton-ciudades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem ;
+}
+
+.contenedor-cobertura {
+  background-color: #D9D9D9;
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.operacion-norte-grande ul {
+  padding-left: 1rem;
+}
+
+.operacion-norte-grande ul li::marker {
+  content: "✔";
+  color: #003366;
+}
+
+.operacion-norte-grande li {
+  padding-left: .5rem;
+}
+
+.contacto-info {
+  background-color: #D9D9D9;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.contacto h2 {
+  color: #003366;
+  font-size: 2rem;
+}
+
+.titulo-contacto {
+  color: #FFAA00;
+  font-weight: bold;
+}
+
+.contacto {
+  width: 32rem;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  border: .1rem solid #D9D9D9;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+form h3 {
+  color: #FFAA00;
+  margin-left: 1rem;
+}
+
+form label {
+  color: #003366;
+  font-weight: bold;
+}
+
+.ingresar-datos {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem ;
+}
+
+.ingresar-datos input,
+.ingresar-datos textarea{
+  border-color: #D9D9D9;
+  border-radius: 0.5rem;
+  padding: 1rem
+}
+
+form button {
+  color: #003366;
+  font-weight: bold;
+  background-color: #FFAA00;
+  border: none;
+  padding: .5rem;
+  border-radius: 1rem;
+}
+
+.contenedor-contacto {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.contenedor-footer {
+  background-color: #003366;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10rem ;
+  padding: 1.5rem;
+}
+
+.card-footer h2 {
+  color: #FFAA00;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.card-footer p {
+  margin-top: 0rem;
+}
+
+.copy p{
+  color: white;
+}
+
+.copy {
+  border-top: .1rem solid white;
+  display: flex;
+  justify-content: center;
+  background-color: #003366;
+  margin: 0rem;
+  padding: 1rem;
 }
